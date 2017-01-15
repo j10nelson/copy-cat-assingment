@@ -5,6 +5,7 @@ font-family: helvitica neue, arial;
 
 body {
     margin: 0;
+    font-size: 22px;
 }
 
 .palette {
@@ -68,9 +69,59 @@ float: left;
     right: 10px;
     font-size: 28px;
 }
+.call-to-action,
+.products,
+.about {
+  padding: 30px 20px;
+}
 
 .call-to-action {
     background-color: #FFD166;
-    position: absolute;
-    padding: 30px 20px;
+    position: relative;
 }
+h3 {
+   font-size: 28px;
+}
+ p {
+    font-size: 25px;
+}
+.products {
+    position: relative;
+  background-color: #FFFCF9;
+}
+.product-wrapper {
+    list-style-type: none;
+}
+.product-item {
+    display: inline-block;
+    border: 6px solid #000;
+    width: 30%;
+    margin: 20px 10px;
+}
+.about {
+    background-color: #26547C;
+
+}
+.team h3 {
+    color: #EF476F;
+    width: 33%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 70px;
+    
+    
+}
+.about p {
+  clear: both;
+    color: white;
+}
+
+footer {
+     background-color: #06d6a0;
+    padding: 20px; 
+    text-align: right;
+    font-size: 1.5em;
+}
+    
