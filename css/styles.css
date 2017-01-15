@@ -1,3 +1,76 @@
-html {
-  
+* {
+  box-sizing: border-box;
+font-family: helvitica neue, arial;   
+}
+
+body {
+    margin: 0;
+}
+
+.palette {
+  background-color: #06D6A0;
+  background-color: #26547C;
+  background-color: #EF476F;
+  background-color: #FFD166;
+  background-color: #FFFCF9;
+}
+header {
+   background-color: #06d6a0;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.logo { 
+    color: white;
+    font-size: 28px;
+    float: left
+
+}
+.container {
+ width: 100%;
+    
+}
+
+.hero {
+background-color: #26547C;
+    width: 100%; 
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0px;
+}  
+img {
+    max-width: 100%;
+}
+.hero-image img {
+    width: 60%;
+    float: left;
+    margin-bottom: 8px;
+    
+}
+.hero-content {
+float: left;
+    width: 40%;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.call-to-action {
+    clear: both;
+
+}
+.navigation {
+    float: right;
+     list-style-type: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    right: 10px;
+    font-size: 28px;
+}
+
+.call-to-action {
+    background-color: #FFD166;
+    position: absolute;
+    padding: 30px 20px;
 }
